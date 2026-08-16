@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../style/user_data.css'
+import '../style/user_data.css';
 
 export const informasiUmum = () => {
     //general

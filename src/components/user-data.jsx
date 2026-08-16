@@ -29,7 +29,7 @@ export const informasiUmum = () => {
         return (
             <div className="container">
                 <form onSubmit={handleEdit}>
-                    <div>
+                    <div className="box">
                         <h2>informasi umum</h2>
                         <span className="spann" />
                         <div className="isi">
@@ -54,7 +54,7 @@ export const informasiUmum = () => {
         <div className="container">
             
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="box">
                     <h2>informasi umum</h2>
                     <input 
                         type="text" 
@@ -119,7 +119,7 @@ export const edukasi = () => {
         return (
             <div className="container">
                 <form onSubmit={handleEdit}>
-                    <div>
+                    <div className="box">
                         <h2>Edukasi</h2>
                         <span className="spann" />
                         <div className="isi">
@@ -147,7 +147,7 @@ export const edukasi = () => {
     return (
         <div className="container">
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="box">
                     <h2>Edukasi</h2>
                     <input 
                         type="text" 
@@ -221,7 +221,7 @@ export const pengalaman = () => {
         return (
             <div className="container">
                 <form onSubmit={handleEdit}>
-                    <div>
+                    <div className="box">
                         <h2>Pengalaman</h2>
                         <span className="spann" />
                         <div className="isi">
@@ -254,7 +254,7 @@ export const pengalaman = () => {
         <div className="container">
             
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="box">
                     <h2>Pengalaman</h2>
                     <div className="tglmulaiselesai">
                         <input 
